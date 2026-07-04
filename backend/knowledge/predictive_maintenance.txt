@@ -1,0 +1,15 @@
+Predictive maintenance estimates future sensor failures.
+
+The system predicts:
+
+Remaining Useful Life (RUL)
+
+Failure Probability
+
+Risk Level
+
+Early Warning Generation
+
+Sensors with high failure probability are scheduled for maintenance before complete failure occurs.
+
+The predictive maintenance module helps reduce unexpected sensor failures.

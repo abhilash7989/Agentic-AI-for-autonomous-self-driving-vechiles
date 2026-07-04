@@ -1,0 +1,28 @@
+The Agentic AI pipeline consists of the following stages.
+
+Observe
+Collect current sensor data.
+
+Analyze
+Detect anomalies and estimate sensor health.
+
+Diagnose
+Identify failed sensors.
+
+Reason
+Determine the safest recovery strategy.
+
+Plan
+Select a new perception pipeline.
+
+Act
+Apply the recovery configuration.
+
+Monitor
+Observe whether recovery is successful.
+
+Verify
+Validate the new system state.
+
+Learn
+Store telemetry and decisions for future improvements.

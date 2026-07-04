@@ -1,0 +1,16 @@
+Sensor fusion combines data from multiple sensors to improve perception.
+
+The platform supports:
+
+Weighted Fusion
+Uses sensor health scores to dynamically adjust sensor weights.
+
+Early Fusion
+Combines raw sensor data before processing.
+
+Late Fusion
+Combines outputs from individual perception models.
+
+If one sensor fails, its weight decreases while healthy sensors receive higher weights.
+
+This enables robust autonomous driving under sensor failures.

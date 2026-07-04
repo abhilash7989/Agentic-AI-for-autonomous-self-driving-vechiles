@@ -1,0 +1,23 @@
+Recovery strategies depend on sensor health.
+
+If Camera fails:
+Use LiDAR and Radar for obstacle detection.
+
+If LiDAR fails:
+Increase Camera and Radar weights.
+
+If Radar fails:
+Use Camera and LiDAR.
+
+If GPS fails:
+Use IMU and previous localization estimates.
+
+If IMU fails:
+Use GPS and vehicle dynamics.
+
+If multiple sensors fail:
+Reduce vehicle speed.
+Increase safety distance.
+Activate degraded perception mode.
+
+The recovery planner always prioritizes vehicle safety.

@@ -30,3 +30,17 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Python
+backend/.venv/
+backend/venv/
+backend/__pycache__/
+backend/**/*.pyc
+
+# Environment
+backend/.env
+
+# Runtime data
+backend/uploads/
+backend/vector_db/
+backend/sensor_recovery.db

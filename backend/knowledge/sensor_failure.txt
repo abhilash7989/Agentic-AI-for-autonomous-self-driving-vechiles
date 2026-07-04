@@ -1,0 +1,50 @@
+LiDAR (Light Detection and Ranging) is a sensor used in autonomous vehicles to measure the distance to surrounding objects using laser pulses.
+
+It creates a high-resolution 3D point cloud of the environment.
+
+LiDAR is essential for:
+
+- Object detection
+- Obstacle avoidance
+- Lane understanding
+- Accurate distance estimation
+
+Common failures include:
+
+- Missing point clouds
+- Sparse point clouds
+- Noise
+- Rain interference
+- Complete blackout
+
+Sensor failures can occur due to hardware faults, environmental conditions or communication problems.
+
+Common sensor failures include:
+
+Camera:
+- Blur
+- Occlusion
+- Complete blackout
+- Low lighting
+
+LiDAR:
+- Missing point clouds
+- Noisy measurements
+- Rain interference
+
+Radar:
+- False detections
+- Multipath reflections
+- Signal loss
+
+GPS:
+- Signal loss
+- Position drift
+- High localization error
+
+IMU:
+- Sensor bias
+- Drift
+- High vibration noise
+
+The anomaly detection module continuously monitors these failures.

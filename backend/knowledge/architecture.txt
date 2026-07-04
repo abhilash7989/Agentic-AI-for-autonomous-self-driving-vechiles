@@ -1,0 +1,31 @@
+The system consists of ten layers.
+
+Layer 1: Sensor Acquisition
+Collects data from Camera, LiDAR, Radar, GPS and IMU sensors.
+
+Layer 2: Sensor Health Monitoring
+Continuously monitors sensor health scores.
+
+Layer 3: Anomaly Detection
+Uses statistical methods and machine learning models to detect abnormal sensor behavior.
+
+Layer 4: Sensor Fusion
+Combines data from multiple sensors using weighted fusion.
+
+Layer 5: Agentic AI Decision Making
+Analyzes failures, reasons about the problem and decides recovery actions.
+
+Layer 6: Recovery Planning
+Generates recovery strategies based on sensor health.
+
+Layer 7: Vehicle Reconfiguration
+Adjusts vehicle speed and changes the active perception pipeline.
+
+Layer 8: Predictive Maintenance
+Predicts remaining useful life (RUL) and failure probability.
+
+Layer 9: Digital Twin Visualization
+Displays real-time vehicle state and sensor status.
+
+Layer 10: Continuous Learning
+Stores telemetry and agent decisions for future improvements.
